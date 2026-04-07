@@ -75,5 +75,54 @@ pip install requirements.txt
 python3 src/main.py
 
 
+# 🎮 MNIST Digit Classifier — Neural Core Interface
+
+> Hand-drawn digit recognition with a convolutional neural network.
+
+## 🧠 Neural Core Init
+
+Upon launch, the system verifies the model weights and initializes the graphical user interface (GUI).
+
+## ✍️ Input Buffer
+
+Use your mouse or touchpad to draw a digit (`0`–`9`) in the **black central terminal zone**.
+
+## 🔍 Inference
+
+Click the **`GUESS`** button. The image is:
+- Captured from the canvas
+- Resized to `28×28` pixels
+- Normalized to MNIST standards
+- Processed by the CNN
+
+## 💬 Feedback
+
+The AI responds in the chat interface with:
+- Its predicted digit
+- Confidence percentage (%)
+
+---
+
+## 📡 Future Roadmap
+
+- [ ] **Real-time Prediction**  
+  Removing the "Guess" button for live, frame-by-frame inference.
+
+- [ ] **ONNX Export**  
+  Converting the core to ONNX for an even lower memory footprint on edge devices.
+
+- [ ] **Dataset Expansion**  
+  Fine-tuning the engine to recognize custom mathematical symbols.
+
+---
+
+## ⚖️ License
+
+MIT
+
+---
+
+> Built with Python, TensorFlow/Keras, and Tkinter/PyQt.
+
 
 
