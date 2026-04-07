@@ -59,3 +59,7 @@ for epoch in range(2):
         loss.backward()
         optimizer.step()
     print(f"Epoch {epoch+1} complete. Signal loss: {loss.item():.4f}")
+
+torch.save(model.cpu().state_dict(), 'aetheris_model.pth')
+from google.colab import files
+files.download('aetheris_model.pth')
