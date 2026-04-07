@@ -122,7 +122,10 @@ MIT
 
 ---
 
-> Built with Python, TensorFlow/Keras, and Tkinter/PyQt.
+---
+
+> Built with **Python**, **PyTorch**, and **PyWebView**.
+
 
 
 
