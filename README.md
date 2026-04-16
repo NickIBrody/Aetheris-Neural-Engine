@@ -116,9 +116,7 @@ The AI responds in the chat interface with:
 
 ---
 
-## ⚖️ License
 
-MIT
 
 ---
 
